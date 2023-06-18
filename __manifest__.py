@@ -31,6 +31,11 @@
     'live_test_url': 'https://showcase.binaryquest.com',
     'website': "https://www.binaryquest.com",
     'images': ['static'],
+    'assets': {
+        'web.assets_common': [
+            'odoo_ui_test/static/src/*'
+        ],
+    },
     'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
