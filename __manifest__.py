@@ -21,10 +21,11 @@
 #
 ###################################################################################
 {
-    'name': 'Odoo UI Test',
+    'name': 'Odoo UI Temaplate',
     'version': '1.0.0',
-    'summary': """Odoo UI Test""",
-    'description': """""",
+    'summary': """Odoo UI Temaplate""",
+    'description': """Some description I guess""",
+    'sequence': -110,
     'category': 'Generic Modules/Human Resources',
     'author': 'Odoo Bangladesh',
     'company': 'Odoo Bangladesh',
@@ -32,12 +33,19 @@
     'website': "https://www.binaryquest.com",
     'images': ['static'],
     'assets': {
-        'web.assets_common': [
-            'odoo_ui_test/static/src/*'
-        ],
+        'web.assets_backend': [
+            # 'odoo_ui_test/static/src/**/*',
+        ]
     },
+    'data': [
+        'security/ir.model.access.csv',
+        'views/task_action.xml',
+        'views/task_menu.xml',
+        'views/task_view.xml',
+        # 'views/task_owl_template.xml',
+    ],
     'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
-    'application': False,
+    'application': True,
 }

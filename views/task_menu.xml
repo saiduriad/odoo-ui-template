@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id='menu_task_root' name='Task' sequence='0' action='task_task_action' web_icon="odoo_ui_template,static/description/icon.png" />
+
+    </data>
+</odoo>
