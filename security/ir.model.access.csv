@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-odoo_ui_template.access_task_task,access_task_task,odoo_ui_template.model_task_task,base.group_user,1,1,1,1
+odoo_ui_template.access_task_task,access_task_task,odoo_ui_template.model_odoo_ui_template_task,base.group_user,1,1,1,1

@@ -2,9 +2,9 @@
 <odoo>
     <data>
 
-        <record id="view_task_task_tree" model="ir.ui.view">
-            <field name="name">task.task.tree</field>
-            <field name="model">task.task</field>
+        <record id="view_odoo_ui_template_task_tree" model="ir.ui.view">
+            <field name="name">odoo_ui_template.task.tree</field>
+            <field name="model">odoo_ui_template.task</field>
             <field name="arch" type="xml">
                 <tree string="Tasks">
                     <field name="name" />
@@ -13,9 +13,9 @@
             </field>
         </record>
 
-        <record id="view_task_task_kanban" model="ir.ui.view">
-            <field name="name">task.task.kanban</field>
-            <field name="model">task.task</field>
+        <record id="view_odoo_ui_template_task_kanban" model="ir.ui.view">
+            <field name="name">odoo_ui_template.task.kanban</field>
+            <field name="model">odoo_ui_template.task</field>
             <field name="arch" type="xml">
                 <kanban class="o_kanban_mobile">
                     <field name="name" />
